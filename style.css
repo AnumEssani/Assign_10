@@ -1,0 +1,49 @@
+.container{
+    margin-top:5%;
+}
+.card-header{
+    align-content: center;
+}
+.card-header h4{
+    display: inline-block;
+}
+.card-body h5{
+    display: inline-block;
+    width: 85%;
+}
+#compTask h5{
+    text-decoration: line-through;
+}
+.card{
+    margin: 10px;
+    transition: all 2s ease-in-out;
+}
+.fade-in{
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fade-out{
+    animation: fadeout 4s;
+}
+@keyframes fadeout {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.form-control {
+    display: inline-block;
+    width: 70%;
+}
+button{
+    margin-left: 3px;
+}
